@@ -1,5 +1,6 @@
 
 
+
 const User = require ('./models/userModel');
 const  bodyParser= require('body-parser');
 
@@ -42,4 +43,6 @@ app.use('/', userRouter);
 //app.use('/payment', paymentRouter)
 app.use('/products', productRouter);
 app.use('/orders', orderRouter);
+
+
 app.listen(PORT, () => console.log(`app started on port ${PORT}`));

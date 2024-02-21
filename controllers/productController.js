@@ -1,3 +1,4 @@
+
 const Product = require("../models/product");
 const uploadFile = require("../configures/cloud");
 
@@ -68,4 +69,4 @@ const deleteProduct = async (req, res) => {
 }
 
 
-module.exports = { createProduct,updateProduct,deleteProduct, getProducts}
+module.exports = { createProduct, getProducts,  deleteProduct, updateProduct }
