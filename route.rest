@@ -1,0 +1,24 @@
+GET http://localhost:3000/users
+
+
+####
+
+POST http://localhost:3000/orders
+
+{
+    "orderItems":[
+        {
+            "item":"coffee",
+        
+
+        }
+    ]
+
+}
+
+
+
+###
+GET   http://localhost:3000/products
+
+
